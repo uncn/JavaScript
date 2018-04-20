@@ -1,0 +1,16 @@
+<html xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JavaScript</title>
+    <script type="text/javascript">
+        function sendToAndroid(message) {
+            androidObject.send(message);
+        }
+    </script>
+</head>
+<body style="font-size: 20px;">
+    <div align="center">
+        <input type="button" size="50" value="InWebView" style="width:200px;height:50px;" onclick="sendToAndroid('In Android Land')">
+    </div>
+</body>
+</html>
