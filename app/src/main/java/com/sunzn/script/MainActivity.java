@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         web.addJavascriptInterface(new Object() {
             @JavascriptInterface
             public void send(String message) {
-                Log.e("MainActivity", message);
+                Log.e("JavaScript", message);
             }
         }, "androidObject");
         web.loadUrl("file:///android_asset/demo.html");
